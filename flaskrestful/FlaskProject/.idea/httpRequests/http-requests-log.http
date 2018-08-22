@@ -1,0 +1,132 @@
+POST http://localhost:5000/movies/8?m_name=YW2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T040521.200.json
+
+###
+
+POST http://localhost:5000/movies?m_name=YW
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T040505.200.json
+
+###
+
+DELETE http://localhost:5000/movies/2?m_name=SMG
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T040200.200.json
+
+###
+
+DELETE http://localhost:5000/movies/1?m_name=SMG
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T040152.200.json
+
+###
+
+DELETE http://localhost:5000/movies?m_name=SMG
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T040142.405.html
+
+###
+
+POST http://localhost:5000/movies?m_name=SMG
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T035403.200.json
+
+###
+
+POST http://localhost:5000/movies?m_name=SMG
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:5000/movies?m_name=SMG
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:5000/movies?m_name=西虹市首富
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T035117.200.json
+
+###
+
+GET http://localhost:5000/movies?m_name=西虹市首富
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T034141.500.html
+
+###
+
+GET http://localhost:5000/movies?m_name=西虹市首富
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T034135.200.json
+
+###
+
+GET http://localhost:5000/movies?m_name=西虹市首富
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T034024.200.json
+
+###
+
+POST http://localhost:5000/movies?m_name=西虹市首富
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T033946.200.json
+
+###
+
+POST http://localhost:5000/movies?m_name=一出好戏
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T033910.200.json
+
+###
+
+POST http://localhost:5000/movies?m_name=yy4480
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T033839.200.json
+
+###
+
+POST http://localhost:5000/movies?m_name=yy4480
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T033824.500.html
+
+###
+
+POST http://localhost:5000/movies?m_name=yy4480
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-14T033737.405.html
+
+###
+

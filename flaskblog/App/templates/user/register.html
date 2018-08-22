@@ -1,0 +1,10 @@
+{% extends 'common/base.html' %}
+{% block title %}
+注册
+{% endblock %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block pagecontent %}
+    <h2>注册</h2>
+{{ wtf.quick_form(form) }}
+    <div style="color: #ccc;font-size: 14px;"><a href="{{ url_for('user.accountactivation') }}">已有账户 未激活 点击激活?</a></div>
+{% endblock %}

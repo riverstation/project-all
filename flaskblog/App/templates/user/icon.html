@@ -1,0 +1,11 @@
+{% extends 'common/base.html' %}
+{% block title %}
+修改头像
+{% endblock %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block pagecontent %}
+    <h2>修改头像</h2>
+{#    <img src="{{ url_for('static',filename='img/default.jpg') }}" width="300" alt="">#}
+    <img src="{{ img_url }}" width="300" alt="">
+{{ wtf.quick_form(form) }}
+{% endblock %}

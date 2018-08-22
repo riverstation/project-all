@@ -1,0 +1,9 @@
+{% extends 'common/base.html' %}
+{% block title %}
+激活用户
+{% endblock %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block pagecontent %}
+    <h2>账户激活</h2>
+{{ wtf.quick_form(form) }}
+{% endblock %}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生列表</title>
+</head>
+<body>
+
+<ul>
+
+    {% for student in student_list %}
+        {% if student.s_id==1000000 %}
+            <li hidden>
+                <a href="{{ url_for('hello.student') }}?id={{ student.s_id }}">{{ student.s_name }}</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{ url_for('hello.student') }}?id={{ student.s_id }}">{{ student.s_name }}</a>
+            </li>
+        {% endif %}
+
+    {% endfor %}
+
+
+</ul>
+
+
+</body>
+</html>

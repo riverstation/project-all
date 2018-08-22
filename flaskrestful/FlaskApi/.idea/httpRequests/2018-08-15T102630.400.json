@@ -1,0 +1,5 @@
+{
+  "message": {
+    "movie_type": "Missing required parameter in the JSON body or the post body or the query string"
+  }
+}
